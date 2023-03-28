@@ -41,7 +41,8 @@ class SourceFileIterator implements \Iterator {
      *
      * @return mixed scalar on success, or null on failure
      */
-    public function key() {
+    public function key(): mixed
+    {
         return $this->iterator->key();
     }
 
